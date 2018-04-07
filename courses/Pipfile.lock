@@ -122,11 +122,11 @@
         },
         "njupt": {
             "hashes": [
-                "sha256:0c493ee44667564dcf6aa77dd07d651156421b01d4107f45a86039bba9b1db86",
-                "sha256:8fb97be47ae9ee383dd9de1919c7ba53562b022030c67f2abed46387cffdc0a3"
+                "sha256:57563ddb49f253c15920eff50851b8eae7abadd0d1a1a05e81b991158cd950e5",
+                "sha256:6b3f864def946b47446ce9603cbbfc532201e888570017da8e9a3c359c6831c1"
             ],
             "index": "pypi",
-            "version": "==0.1.1"
+            "version": "==0.1.2"
         },
         "olefile": {
             "hashes": [
