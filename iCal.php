@@ -1,5 +1,7 @@
 <?php
 
+$term_start_time = '2018-02-26';
+
 //$json_string = file_get_contents('sample.json');
 //$timetable = json_decode($json_string);
 
@@ -26,15 +28,15 @@ $body = $response->getBody();
 
 $content = json_decode($body);
 
-if (!$content['success'])
+if (!$content->success)
 {
-    exit($content['message']);
+    exit($content->message);
 }
-$timetable = $content['courses'];
+$timetable = $content->courses;
 
 
 date_default_timezone_set('Asia/Shanghai');
-$term_start_time = '2018-02-26';
+
 $class_time = array(
     1 => new DateTimeImmutable($term_start_time. '08:00:00'),
     2 => new DateTimeImmutable($term_start_time. '08:50:00'),
@@ -55,16 +57,16 @@ $vCalendar = new \Eluceo\iCal\Component\Calendar('-//shaoye1124@gmail.com//iCal-
 
 foreach ($timetable as $course ){
 
-    $class_start_time = $class_time[$course->classstart]
+    $class_start_time = $class_time[$course->class_start]
         ->modify('+ '.($course->day-1) .' days')
-        ->modify('+ '.($course->weekstart-1)*7 .' days');
-    $class_end_time = $class_time[$course->classend]
+        ->modify('+ '.($course->week_start-1)*7 .' days');
+    $class_end_time = $class_time[$course->class_end]
         ->modify('+ '.($course->day-1) .' days')
-        ->modify('+ '.($course->weekstart-1)*7 .' days')
+        ->modify('+ '.($course->week_start-1)*7 .' days')
         ->modify('+ 45 minutes');
-    $class_end_date = $class_time[$course->classend]
+    $class_end_date = $class_time[$course->class_end]
         ->modify('+ '.($course->day-1) .' days')
-        ->modify('+ '.($course->weekend-1)*7 .' days')
+        ->modify('+ '.($course->week_end-1)*7 .' days')
         ->modify('+ 45 minutes');
     $vEvent = new \Eluceo\iCal\Component\Event();
     $vEvent
