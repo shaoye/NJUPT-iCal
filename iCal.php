@@ -3,16 +3,16 @@
 //$json_string = file_get_contents('sample.json');
 //$timetable = json_decode($json_string);
 
-$xh = @$_REQUEST['xh'];
+$account = @$_REQUEST['account'];
 $password = @$_REQUEST['password'];
-if (null == $xh || null == $password)
+if (null == $account || null == $password)
 {
     exit("Wrong Password");
 }
 $client = new GuzzleHttp\Client();
-$response = $client->request('GET', 'https://abc.test', [
+$response = $client->request('GET', 'http://localhost:8000/zhengfang', [
     'query' => [
-        'xh' => $xh,
+        'account' => $account,
         'password' => $password
     ]
 ]);
