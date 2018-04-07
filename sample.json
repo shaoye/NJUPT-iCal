@@ -1,0 +1,74 @@
+[
+  {
+    "day": 1,
+    "name": "编译原理",
+    "week": "第1-16周",
+    "weekstart": 1,
+    "weekend": 16,
+    "interval": 1,
+    "classstart": 1,
+    "classend": 2,
+    "teacher": "徐佳",
+    "room": "教3－301"
+  },
+  {
+    "day": 2,
+    "name": "Web技术（双语）",
+    "week": "第1-16周",
+    "weekstart": 1,
+    "weekend": 16,
+    "interval": 1,
+    "classstart": 1,
+    "classend": 2,
+    "teacher": "韩京宇",
+    "room": "教2－102"
+  },
+  {
+    "day": 3,
+    "name": "数据库系统",
+    "week": "第1-16周",
+    "weekstart": 1,
+    "weekend": 16,
+    "interval": 1,
+    "classstart": 1,
+    "classend": 2,
+    "teacher": "张少娴",
+    "room": "教3－412"
+  },
+  {
+    "day": 3,
+    "name": "编译原理",
+    "week": "第1-15周|单周",
+    "weekstart": 1,
+    "weekend": 15,
+    "interval": 2,
+    "classstart": 3,
+    "classend": 4,
+    "teacher": "徐佳",
+    "room": "教3－301"
+  },
+  {
+    "day": 4,
+    "name": "电工电子基础实验B",
+    "week": "第5-17周",
+    "weekstart": 5,
+    "weekend": 17,
+    "interval": 1,
+    "classstart": 1,
+    "classend": 4,
+    "teacher": "付丽丽",
+    "room": "第七实验室"
+  },
+  {
+    "day": 5,
+    "name": "高等数学A（下）",
+    "week": "第5-18周",
+    "weekstart": 5,
+    "weekend": 18,
+    "interval": 1,
+    "classstart": 10,
+    "classend": 12,
+    "teacher": "重修班老师",
+    "room": ""
+  }
+]

@@ -1,0 +1,18 @@
+{
+    "autoload": {
+      "psr-4": {
+        "App\\" : "src/"
+      }
+    },
+    "name": "Shaoye/iCal",
+    "require": {
+        "eluceo/ical": "^0.14.0",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "authors": [
+        {
+            "name": "Shaoye",
+            "email": "shaoye1124@gmail.com"
+        }
+    ]
+}
