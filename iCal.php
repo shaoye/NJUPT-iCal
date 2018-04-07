@@ -87,7 +87,7 @@ foreach ($timetable as $course ){
 
 // Set headers
 header('Content-Type: text/calendar; charset=utf-8');
-header('Content-Disposition: attachment; filename="cal.ics"');
+header('Content-Disposition: attachment; filename="NJUPT-iCal.ics"');
 
 // Output
 echo $vCalendar->render();
