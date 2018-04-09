@@ -9,7 +9,7 @@ $account = @$_REQUEST['account'];
 $password = @$_REQUEST['password'];
 if (null == $account || null == $password)
 {
-    exit("Wrong Password");
+     exit("请输入正确的地址格式: http://123.206.204.241/?account=学号&password=正方密码");
 }
 $client = new GuzzleHttp\Client();
 $response = $client->request('GET', 'http://localhost:8000/zhengfang', [
