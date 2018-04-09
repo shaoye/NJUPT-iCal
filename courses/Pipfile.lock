@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "747aa8668c250efd945321d7b81cfc466c32b238e02d5628b611ab11ccc4af8b"
+            "sha256": "1d587a26610328534e17e559498b257d2984fcd97879ddcb59152987e9518af4"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -10,7 +10,7 @@
         "sources": [
             {
                 "name": "pypi",
-                "url": "https://pypi.doubanio.com/simple",
+                "url": "https://pypi.tuna.tsinghua.edu.cn/simple",
                 "verify_ssl": true
             }
         ]
@@ -122,11 +122,11 @@
         },
         "njupt": {
             "hashes": [
-                "sha256:57563ddb49f253c15920eff50851b8eae7abadd0d1a1a05e81b991158cd950e5",
-                "sha256:6b3f864def946b47446ce9603cbbfc532201e888570017da8e9a3c359c6831c1"
+                "sha256:2ee92312097db49bf8e0e224e80eb9ecc672c0c0a569788a73c067bea7969e9d",
+                "sha256:c31a5cae2d3e6d986dcdeba782b0e4cb6ceaed278869a5cfc935799d826f62d0"
             ],
             "index": "pypi",
-            "version": "==0.1.2"
+            "version": "==0.1.3"
         },
         "olefile": {
             "hashes": [
