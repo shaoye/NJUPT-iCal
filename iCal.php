@@ -1,6 +1,6 @@
 <?php
 
-$term_start_time = '2019-02-18';
+$term_start_time = '2019-09-26';
 
 //$json_string = file_get_contents('sample.json');
 //$timetable = json_decode($json_string);
@@ -9,7 +9,7 @@ $account = @$_REQUEST['account'];
 $password = @$_REQUEST['password'];
 if (null == $account || null == $password)
 {
-     exit("请输入正确的地址格式: http://123.206.204.241/?account=学号&password=正方密码");
+     exit("请输入正确的地址格式: http://47.101.209.145/?account=学号&password=正方密码");
 }
 $client = new GuzzleHttp\Client();
 $response = $client->request('GET', 'http://localhost:8000/zhengfang', [
