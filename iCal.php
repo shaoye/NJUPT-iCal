@@ -1,6 +1,6 @@
 <?php
 
-$term_start_time = '2019-09-26';
+$term_start_time = '2019-08-26';
 
 //$json_string = file_get_contents('sample.json');
 //$timetable = json_decode($json_string);
