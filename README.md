@@ -6,7 +6,9 @@ Generate iCalendar file (.ics) through [NJUPT-API](https://github.com/gaoliang/N
 > 已支持2020春期
 > 2020-02-17
 
-[Demo](http://47.101.209.145)
+[Demo Server](http://47.101.209.145)
+
+![](demo.gif)
 
 # 安装
 
