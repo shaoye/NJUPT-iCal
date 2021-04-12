@@ -1,6 +1,8 @@
 <?php
 
-$term_start_time = '2019-08-26';
+require __DIR__ . '/vendor/autoload.php';
+use GuzzleHttp\Client;
+$term_start_time = '2021-03-8';
 
 //$json_string = file_get_contents('sample.json');
 //$timetable = json_decode($json_string);
@@ -11,7 +13,7 @@ if (null == $account || null == $password)
 {
      exit("请输入正确的地址格式: http://47.101.209.145/?account=学号&password=正方密码");
 }
-$client = new GuzzleHttp\Client();
+$client = new Client();
 $response = $client->request('GET', 'http://localhost:8000/zhengfang', [
     'query' => [
         'account' => $account,

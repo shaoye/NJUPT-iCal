@@ -4,10 +4,10 @@
         "App\\" : "src/"
       }
     },
-    "name": "Shaoye/iCal",
+    "name": "vendor_name/ical",
     "require": {
         "eluceo/ical": "^0.14.0",
-        "guzzlehttp/guzzle": "^6.3"
+        "guzzlehttp/guzzle": "^7.0"
     },
     "authors": [
         {
