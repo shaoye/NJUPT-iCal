@@ -2,18 +2,18 @@
 
 Generate iCalendar file (.ics) through [NJUPT-API](https://github.com/gaoliang/NJUPT-API)
 
-## 测试地址
-> 已支持2020春期
-> 2020-02-17
 
-[Demo Server](http://47.101.209.145)
+## [Demo Server](http://106.53.120.56)
+
+> 已支持2021春期
+> 2021-03-08
 
 ![](demo.gif)
 
-# 安装
+## 安装 & 运行
 
 ```
-composer install
+docker-compose up
 ```
 
 
